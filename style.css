@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+body{font-family: 'Titillium Web', sans-serif;}
+
+img{max-width: 100%; height: auto;}
+
+html{scroll-behavior: smooth; font-size: 18px; text-rendering: optimizeLegibility;}
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.container{ width: 1600px; margin: auto; max-width: 100%;  position: relative;}
+
+li{list-style: none;}
+
+a{text-decoration: none;}
+
+/* ==================TOP SECTION STARTS HERE */
+
+.main{background-color: #e1f3fd; }
+
+.top{display: flex; align-items: center; padding: 10px 3%; justify-content: space-between;}
+
+.top-left{width: 10%;}
+
+.top-midle{width: 80%;}
+
+.top-right{display: none;}
+
+.top-midle ul{display: flex; justify-content:flex-end;}
+
+.top-midle ul li{margin-right: 60px;}
+
+.top-midle ul li a{text-transform: uppercase; color: #000;}
+
+.top-midle ul li a:hover{color: #fed200;}
+
+.top-left h1{color: #fed200; text-transform: uppercase;}
+
+.top-right{font-size: 30px;}
+
+.top-bottom{display: flex; justify-content: space-between; padding: 100px 3%; align-items: center;}
+
+.top-bottom-left{width: 40%;}
+
+.top-bottom-right{width: 50%;}
+
+.top-bottom-left h4{font-size: 35px; text-transform: uppercase;}
+
+.top-bottom-left h1{font-size: 80px; text-transform: uppercase; letter-spacing: 10px; margin-bottom: 30px;}
+
+.top-bottom-left p{text-align: justify; margin-bottom: 40px;}
+
+.top-bottom-left button{width: 170px; border: none; padding: 14px; background-color: #fed200;
+
+color: #000; text-transform: uppercase; border-radius: 7px; margin-right: 15px;}
+
+.top-bottom-left button:hover{background-color: #C7E2F7;}
+
+.icon{text-align: center; position: absolute; top: 95%; left: 45px;}
+
+.icon i{background-color: #000; color: #fff; width: 60px; height: 60px;
+
+border-radius: 50%; line-height: 60px; transition: .3s; margin-right: 15px;}
+
+.icon i:hover{background-color: #fed200; color: #000; transform: rotate(360deg);}
+
+/* ==================TOP SECTION ENDS HERE */
+
+
+
+/* ==================SECOND SECTION STARTS HERE */
+
+.second{padding: 0 3%; padding-bottom:50px;}
+
+.second-top{text-align: center; padding: 50px 0 50px 0;}
+
+.second-top h1{text-transform: uppercase; font-size: 50px; margin-bottom: 30px;}
+
+.second-top h1::after{ content: ''; display: block; width: 310px; height: 6px; background-color: #C7E2F7; margin: auto; border-radius: 1000px;}
+
+.second-top p{}
+
+.second-df{display: flex; justify-content:center; }
+
+.second-item{width: 23%; background-color: #fff; box-shadow: 0 0 20px 0 rgba(0, 0, 0, .2); margin-bottom: 30px;
+
+border-radius: 15px; margin-right: 30px; padding: 30px 1%; height: 210px; border-bottom: 8px solid #fed200;}
+
+.second-item p{margin-top: 10px;}
+
+.inner-df{display: flex; align-items: center;}
+
+.card-df{display: flex; justify-content: center; }
+
+.card-btn{width:23%; text-align: center; margin-right: 30px;}
+
+.card-btn button{border: 0; background-color: #fed200; padding: 13px 30px; border-radius: 7px; text-transform: uppercase;}
+
+.card-btn button:hover{background-color: #daebf4;}
+
+/* ==================SECOND SECTION ENDS HERE */
+
+
+
+/* ==================THIRD SECTION STARTS HERE */
+
+.third{background-color: #e1f3fd; padding: 60px 3%;}
+
+.third-df{display: flex; justify-content: space-around; align-items: center;}
+
+.third-item{width: 40%;}
+
+.third-item h1{text-transform: uppercase; font-size: 40px; margin-bottom: 25px;}
+
+.third-item h1::after{width: 300px; height: 8px; background-color:#fed200; content: ''; display: block; border-radius: 1000px;}
+
+.third-item p{margin-bottom: 30px;}
+
+.third-item button{border: none; background-color: #fed200; padding: 12px 20px; border-radius: 6px; text-transform: uppercase;}
+
+/* ==================THIRD SECTION ENDS HERE */
+
+
+
+
+/* ==================FORTH SECTION STARTS HERE */
+
+.forth{padding: 0 3% 50px 3%;}
+
+.forth-top{text-align: center; padding: 40px 3%;}
+
+.forth-top h1{text-transform: uppercase; margin-bottom: 30px;}
+
+.forth-top h1:after{content: ''; display: block; width: 170px; height: 7px;
+
+background-color: #C7E2F7; margin: auto; border-radius: 1000px;}
+
+.forth-df{display: flex; justify-content: center; flex-flow: wrap;}
+
+.forth-item{width: 22%; text-align: center;}
+
+.forth-item img{height: 500px;}
+
+.forth-item h3{text-transform: uppercase;}
+
+.forth-item h5{color: #fed200;}
+
+/* ==================FORTH SECTION ENDS HERE */
+
+
+
+
+
+/* ==================FIFTH SECTION STARTS HERE */
+
+
+.fifth{background-color: #E1F3FD; padding: 40px 3%;}
+
+.fifth h1{text-align: center; margin-bottom: 35px;}
+
+.fifth-df{display: flex; justify-content: center; align-items: center; margin-bottom: 60px;}
+
+.fifth-left{width: 15%;}
+
+.fifth-right{width: 18%; background-color: #fff; box-shadow: 0 0 20px 0 rgba(0, 0, 0, .2);
+
+padding:16px 0 0 10px; position: relative; height: 120px;}
+
+.fifth-right img{position: absolute; top: 50%; left: 100%; transform: translate(-50%, -50%);}
+
+.fifth-bottom ul{display: flex; justify-content: center;}
+
+.fifth-bottom ul li{background-color: #000; width: 50px; height: 50px; border-radius: 50%; margin-right: 15px;}
+
+/* ==================FIFTH SECTION ENDS HERE */
+
+
+
+
+
+/* ==================SIX SECTION STARTS HERE */
+
+.six{padding: 60px 3%; background: linear-gradient(rgba(0, 68, 103,0.8),
+
+rgba(0, 68, 103,0.8)) ,url(water.jpg); background-position: center;
+
+background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
+
+.six-width{width: 25%; margin: auto;}
+
+.six-width h1{text-align: center; text-transform: uppercase; margin-bottom: 30px; color: #fff;}
+
+input{width: 100%; border: 2px solid #E1F3FD; border-radius: 6px; padding: 13px; margin-bottom: 25px;}
+
+textarea{width: 100%; resize: none; border: 2px solid #E1F3FD; border-radius: 6px; padding: 40px 13px; margin-bottom: 25px;}
+
+.cen input{width: 50%; border: none; background-color: #fed200; color: #000; border-radius: 1000px;}
+
+.cen{text-align: center;}
+
+input::placeholder{color: #000;}
+
+textarea::placeholder{color: #000;}
+
+/* ==================SIX SECTION ENDS HERE */
+
+
+
+
+/* ==================SEVEN SECTION STARTS HERE */
+
+.seven{background-color: #2f2f30; color: #fdffff; padding: 40px 3%;}
+
+.seven-df{display: flex; align-items: center; justify-content: center;}
+
+.seven-item{width: 40%;}
+
+.same{margin-bottom: 35px; display: flex; align-items: center;}
+
+.same i{margin-right: 15px; font-size: 35px;}
+
+/* ==================SEVEN SECTION ENDS HERE */
+
+.eight{background-color: #C7E2F7; text-align: center; padding: 15px 3%; text-transform: uppercase;}
+
+
+
+
+/* MAX WIDTH 1304 PX======= */
+
+@media (max-width:1304px) {
+
+.top-midle{display: none;}
+
+.main{border-radius: 0;}
+}
+
+
+/* MAX WIDTH 992 PX======= */
+
+@media (max-width:992px) {
+
+.top-bottom{flex-direction: column;}
+
+.top-bottom-left{width: 100%;}
+
+.top-bottom-right{width: 100%;}
+
+.top-bottom-left h1{ font-size: 50px; letter-spacing: 0;}
+
+.main{padding: 0 3%;}
+
+.top-bottom-right img{margin-bottom: 50px; margin-top: 30px;}
+
+.icon{top: 97%;}
+
+.top-left{width: 18%;}
+
+.top-right{width: 10%; display: flex; justify-content: flex-end;}
+
+.second-top h1{font-size: 41px;}
+
+.second-top h1::after{width: 250px;}
+
+.second-top p{text-align: justify;}
+
+.second-df{flex-direction: column;}
+
+.second-item{width: 100%; height: auto;}
+
+.card-btn:nth-child(odd) {display:none;}
+
+.card-btn{width: 100%;}
+
+.third-df{flex-direction: column;}
+
+.third-item{width: 100%;}
+
+.third-item button{margin-bottom: 50px;}
+
+.third-item p{text-align: justify;}
+
+.third-item h1{font-size: 30px;}
+
+.third-item h1::after{width: 230px;}
+
+.forth-item{width: 50%;}
+
+.fifth-right{height: auto;}
+
+.fifth-df{flex-direction: column;}
+
+.fifth-left{text-align: center; width: 100%; margin-bottom: 30px;}
+
+.fifth-right{width: 50%;}
+
+.six-width{width: 100%;}
+
+.seven-df{flex-direction: column;}
+
+.seven-item{width: 100%;}
+
+.same i{font-size: 25px; margin-right: 8px;}
+
+.same p{font-size: 18px;}
+}
+
+
+
+/* MAX WIDTH 450 PX======= */
+
+@media (max-width:450px) {
+
+.top-bottom-left button{}
+
+.icon{width: 100%; left: 7%; top: 97%;}
+
+.icon i{margin-right: 0;}
+
+.top-bottom-left button{ width: 100%; padding: 13px; margin-bottom: 30px;}
+
+.forth-item{width: 100%;}
+
+.fifth-right{width: 90%;}
+}
